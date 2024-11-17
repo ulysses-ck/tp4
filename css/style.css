@@ -1,0 +1,79 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  height: 100vh;
+  min-height: 650px;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-image {
+  width: 90%;
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+.container-image img {
+  width: 100%;
+  display: block;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.container-text {
+  color: white;
+}
+.learn-now {
+  line-height: 1.5;
+  margin-top: 0.5em;
+  margin-right: 0;
+}
+
+.button {
+  background-color: white;
+  text-decoration: none;
+  color: #687eea;
+  padding: 1em 2em;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container-image {
+    width: 45%;
+    margin-bottom: 0;
+  }
+
+  .container-text {
+    width: 50%;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .learn-now {
+    margin-top: 0.7em;
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+}
